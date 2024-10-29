@@ -1,0 +1,10 @@
+[package]
+name = "sway-scale-switcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+dirs = "5.0.1"
+regex = "1.11.1"
+text_io = "0.1.12"
